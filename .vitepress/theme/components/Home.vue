@@ -15,7 +15,7 @@ onMounted(async () => {
     <h1 class="tagline">
       The
       <span class="accent">Progressive</span>
-      <br />JavaScript Framework
+      <br /> Hello world
     </h1>
     <p class="description">
       An approachable, performant and versatile framework for building web
