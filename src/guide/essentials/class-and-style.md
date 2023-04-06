@@ -209,7 +209,7 @@ Then add some classes when using it:
 The rendered HTML will be:
 
 ```vue-html
-<p class="foo bar baz boo">Hi</p>
+<p class="foo bar baz boo">Hi!</p>
 ```
 
 The same is true for class bindings:
@@ -221,7 +221,7 @@ The same is true for class bindings:
 When `isActive` is truthy, the rendered HTML will be:
 
 ```vue-html
-<p class="foo bar active">Hi</p>
+<p class="foo bar active">Hi!</p>
 ```
 
 If your component has multiple root elements, you would need to define which element will receive this class. You can do this using the `$attrs` component property:
@@ -243,11 +243,11 @@ Will render:
 <span>This is a child component</span>
 ```
 
-You can learn more about component attribute inheritance in [Fallthrough Attributes](/guide/components/attrs.html) section.
+You can learn more about component attribute inheritance in [Fallthrough Attributes](/guide/components/attrs) section.
 
 ## Binding Inline Styles {#binding-inline-styles}
 
-### Binding to Objects
+### Binding to Objects {#binding-to-objects-1}
 
 `:style` supports binding to JavaScript object values - it corresponds to an [HTML element's `style` property](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style):
 
@@ -317,7 +317,7 @@ data() {
 
 Again, object style binding is often used in conjunction with computed properties that return objects.
 
-### Binding to Arrays
+### Binding to Arrays {#binding-to-arrays-1}
 
 We can bind `:style` to an array of multiple style objects. These objects will be merged and applied to the same element:
 
